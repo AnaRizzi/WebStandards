@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --rosa-claro: #FFDAB9;
+    --rosa-escuro: #E9967A;
+    --azul: #1E90FF;
+    --sombra: #111111;
+}

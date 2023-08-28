@@ -1,0 +1,168 @@
+@font-face{
+    font-family: "A Yummy Apology";
+    src: url("../../../public/assets/fonts/AYUMA.TTF");
+}
+
+#titulo{
+    margin: 0 auto;
+    background-color: var(--rosa-claro);
+    text-align: center;
+    padding: 5px 0 0 0;
+    color: var(--azul);
+    text-shadow: 1px 1px 1px var(--sombra);
+}
+
+.titulo_principal{
+    font-family: "A Yummy Apology";
+    font-size: 8vw;
+    padding-right: 10%;
+}
+
+#menu{
+    background-color: var(--rosa-claro);
+    padding: 10px 20px 20px 20px;
+    margin-top: 0px;
+    min-height: 20px;
+    text-shadow: 0.5px 0.5px 3px (var(--sombra));
+    font-family: Helvetica, Arial;
+    font-size: 100%; 
+}
+
+#menu a{
+    text-decoration: none;
+    color: #111;
+    padding: 10px;
+}
+
+#menu a:hover{
+    background-color: var(--rosa-escuro); 
+    color:var(--rosa-claro);
+}
+
+.voltar{
+    padding: 0 0 0 95%;
+}
+
+.voltar img{
+    width: 20px;
+}
+
+body {
+    background-image: url("../../../public/assets/images/fundo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    line-height: 1.25; 
+}
+
+p, h1, h2, ul{
+    margin: 15px;
+}
+
+h2{
+    color: var(--azul);
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px 15%;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.caixa-flexivel{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.caixa-flexivel img{
+    height: 150px;
+    margin: 20px 20px 0px 20px;
+}
+
+.caixa-flexivel span{
+    margin: 0 20px;
+}
+
+#contato form{
+    margin: 25px 0;
+}
+
+#contato input{
+    padding: 5px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contato img{
+    height: 30px;
+    margin: 0 10px;
+}
+
+.contato a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+footer{
+    min-height: 10px;
+    padding: 10px 20px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: var(--rosa-claro);
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 15pt 15pt 0 0;
+}
+
+@media (max-width:768px){
+    .titulo_principal{
+        font-size: 8vw;
+    }
+
+    #menu{
+        font-size: 3vw; 
+    }
+
+    p, ul{
+        font-size: 5vw;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
+
+    .caixa-flexivel img{
+        width: 75%;
+        height: auto;
+    }
+    
+    .caixa-flexivel span{
+        font-size: 4vw;
+    }
+
+    footer{
+        width: 75%;
+    }
+
+    footer p{
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width:480px){
+    .titulo_principal{
+        font-size: 13vw;
+    }
+
+    #menu{
+        font-size: 4vw; 
+    }
+}
